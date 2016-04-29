@@ -1,0 +1,39 @@
+  ----THREE COLOR SCHEME-----
+/* Main Primary color */
+0 { color: #381FD3 }
+1 { color: #A39ADF }
+2 { color: #6453D1 }
+3 { color: #210BAA }
+4 { color: #16057B }
+/* Main Secondary color (1) */
+1-0 { color: #F8FE05 }
+1-1 { color: #FCFEA3 }
+1-2 { color: #FAFE4D }
+1-3 { color: #EDF400 }
+1-4 { color: #ACB100 }
+/* Main Secondary color (2) */
+2-0 { color: #FF9405 }
+2-1 { color: #FFD8A3 }
+2-2 { color: #FFB34E }
+2-3 { color: #F58C00 }
+2-4 { color: #B26600 }
+
+  -----HIGHER CONTRAST----
+/* Main Primary color */
+0 { color: #16009E }	/*WRAPPER BACKGROUND-COLOR*/
+1 { color: #452DE1 }  /*BORDER-COLOR*/
+2 { color: #1F01DB }
+3 { color: #100074 }
+4 { color: #090042 }
+/* Main Secondary color (1) */
+1-0 { color: #DDE200 }	/*NAV*/
+1-1 { color: #F9FE14 }
+1-2 { color: #F8FE00 }
+1-3 { color: #A2A700 }  /*MAINCOL*/
+1-4 { color: #5D5F00 }
+/* Main Secondary color (2) */
+2-0 { color: #E48200 }
+2-1 { color: #FF9B14 }
+2-2 { color: #FF9200 }
+2-3 { color: #A76000 }
+2-4 { color: #603700 }
