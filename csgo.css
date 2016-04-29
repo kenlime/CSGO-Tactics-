@@ -1,0 +1,103 @@
+.floatleft {
+    margin-right: 10px;
+    float: left;
+}
+.floatright {
+    margin-left: 10px;
+    float: right;
+}
+.center {
+    text-align: center;
+}
+.outsetborder {
+		border: 10px outset #112045;
+}
+.insetborder {
+	border: 10px inset #112045;
+}
+.yellowrow {
+	background-color: yellow;
+}
+.orangerow {
+	background-color: orange;
+}
+.greenrow {
+	background-color: green;
+}
+.purplerow {
+	background-color: purple;
+}
+.bluerow {
+	background-color: blue;
+}
+
+body {
+  background-color: #24355E;
+}
+footer {
+  margin: auto;
+  height: 100px;
+  min-width: 960px;
+  max-width: 1024px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #8C2D2B;
+}
+#wrapper {
+
+    margin: auto;
+    min-width: 960px;
+    max-width: 1024px;
+}
+
+#wrapper h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+#wrapper p {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0px 5px;
+}
+
+#banner {
+    height: 120px;
+		padding: 5px;
+    background-image: url(images/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #000000;
+    text-align: center;
+    color: #FFF8E3;
+}
+
+#space {
+		width: auto;
+		display: flex;
+}
+nav {
+		flex-grow: 1;
+		float: left;
+		padding: 10px 10px 0px 10px;
+		height: inherit;
+		text-align: center;
+		background-color: #D2D37B;
+
+}
+nav table {
+	border: 3px solid black;
+}
+#maincol {
+	flex-grow: 5;
+	padding: 8px;
+	background-color: #59688E;
+}
+
+#maincol table {
+  font-weight: bold;
+	width: 60%;
+}
+#maincol table, td {
+	text-align: center;
+	border: solid black;
+}
